@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService(); // создание объекта с переменной service для вычислений ежемесячного платежа
-//        float s; // сумма кредита, рубли
-//        float n; // срок кредита, мес
-//        float r = (float) 9.99; // годовой процент
+//        float sum; // сумма кредита, рубли
+//        float period; // срок кредита, мес
+//        float percent = (float) 9.99; // годовой процент
 //        float payment = (float) service.calculate(1_000_000, (float) 9.99, 12);
 //        int total = (int) payment;
 //        System.out.println("Ежемесячный платеж составит: " + total + " рублей");
